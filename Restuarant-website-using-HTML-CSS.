@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet"  href="restaurant.css">
+</head>
+<body>
+    <div class=header>
+        <h1>CAFE BBQ</h1>
+        <p>Welcome to a world of culinary deligh</p>
+    </div>
+    <div class=nav>
+        <a href="#appetizers">Appetizers</a>
+        <a href="#main-courses">Main Courses</a>
+        <a href="#desserts">Desserts</a>
+    </div>
+        
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8i-ZXcJYV0E6t70LGyeEDpSIgcZuC0IxtoQ&usqp=CAU" width="1000" height="400">
+
+ 
+        <div id="1">
+             <h3 style="color:brown">Appetizers</h3>
+		<ul>
+                <li>Canape-RS.100</li>
+		<li>Relishes & Crudite- RS 180</li>
+		<li>Soup.-- RS 150</li>
+		</ul>
+            </div>
+     
+        
+        <div id="2">
+            <h3 style="color:brown">Main Courses</h3>
+            	<ul>
+		<li>
+                <span>BEEF STEAK - RS 250</span></li>
+		<li>
+                <span>MUSHROOM SALAD- RS 180</span></li>
+		<li>
+                <span>FRIED CHICKEN- RS 190</span></li>
+</ul>
+                
+            </div>
+           
+     
+        <div id="3">
+             <h3 style="color:brown">Desserts</h3>
+           	<ul>
+
+                <li><span>Chocolate Cake-RS 45.99</span></li>
+		<li><span>Ice-Cream-RS 60-</span></li>
+		<li><span>Chocolate Truffle-RS 45</span></li>
+	</ul>
+                            </div>
+</body>
+</html>
+
+//CSS
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a5b1aef8;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:rgb(173, 169, 169);
+    color:rgb(36, 7, 163);
+    text-align: center;
+    padding: 10px;
+}
+
+.nav {
+    background-color: rgb(182, 30, 30);
+    text-align: center;
+}
+
+.nav a{
+    color: #d3e2dd;
+    background-color: rgb(255, 127, 200);
+    padding: 10px 20px;
+}
+
+
+
+
+
